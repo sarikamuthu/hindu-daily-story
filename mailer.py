@@ -9,7 +9,7 @@ EMAIL_ADDRESS = ""
 EMAIL_PASSWORD = ""  
 
 def format_story_html(story_text):
-    """Convert plain story text into styled HTML for CEO email."""
+    """Convert plain story text into styled HTML for email."""
 
     
     story_text = story_text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
